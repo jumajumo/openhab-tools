@@ -1,6 +1,6 @@
 const https = require('http');
 
-https.get('http://192.168.1.90/api/PqQ9duvMSqPCrxu0nvBCTa-XZRSCQz-Ww8vHXGJ5', (resp) => {
+https.get('http://192.168.1.90/api/<key>', (resp) => {
     let data = '';
 
     // A chunk of data has been received.
